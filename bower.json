@@ -1,0 +1,25 @@
+{
+  "name": "vaporwave-name-generator",
+  "description": "Name generator based on vaporwave trends",
+  "main": "index.html",
+  "authors": [
+    "Subliminal Stellar"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vaporwave",
+    "name",
+    "generator"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

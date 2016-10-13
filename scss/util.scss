@@ -1,0 +1,67 @@
+/* Resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 1px;
+}
+
+
+/* 800px maximum width page container */
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Page content sections */
+.section {
+    margin: 1em;
+    padding: 1em;
+    background: #fff;
+    zoom: 1;
+    filter: alpha(opacity=97);
+    opacity: 0.975;
+}
+
+.section h1 {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Utility classes */
+.clear {
+    clear: both;
+}
+
+.break-after {
+    margin-bottom: 16px;
+}
+
+/* responsive-* classes set the font size in terms of viewport width units so 
+ * you can easily size elements in a responsive way. Don't forget to override 
+ * font-size on your inner elements so your text is actually readable. */
+$responsives: 1, 10, 16;
+@each $n in $responsives {
+    .responsive-#{$n} {
+        font-size: #{$n}vw;
+        max-width: 100%;
+    }
+}
+
+.center-horiz {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Limit maximum size of Helios. */
+img[src~="memes/roman-statue.png"] {
+    max-height: 480px;
+}

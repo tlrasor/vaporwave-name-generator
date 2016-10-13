@@ -1,3 +1,7 @@
+# Project specific stuff
+
+dist/
+
 
 # Created by https://www.gitignore.io/api/sass,node,bower
 
